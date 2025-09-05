@@ -1,6 +1,7 @@
 package classes;
 
 import java.time.LocalDate;
+
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
@@ -8,6 +9,7 @@ public class Task {
     private static int idCounter = 1;
     private int id;
     private String description;
+
     private LocalDate deadline; // **Changed to LocalDate for better date
                                 // handling**
     private boolean isCompleted;
